@@ -1,19 +1,51 @@
 aid: cuseum
 name: Cuseum
-description: Cuseum is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Cuseum is an engagement platform for museums, cultural attractions, nonprofits,
+  and membership organizations. Its core product issues digital membership cards
+  that members save to Apple Wallet and Google Wallet, replacing plastic cards with
+  passes that update in real time and support tap-to-scan entry. Beyond membership,
+  Cuseum offers mobile visitor guides, audio tours, guest passes, loyalty programs,
+  donor engagement, and automated lifecycle communications. It syncs member and
+  donor data with existing CRM, ticketing, and POS systems (Salesforce, HubSpot,
+  Tessitura, Blackbaud, NeonCRM, PatronManager, ACME Ticketing, Ticketure) via
+  CSV upload, SFTP, Zapier, and API-based integrations. Cuseum was part of the
+  Techstars accelerator and serves cultural institutions worldwide.
 url: https://raw.githubusercontent.com/api-evangelist/cuseum/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://static1.squarespace.com/static/584ee3cc2994cac9e545aadd/t/585a13c6bebafba69927b2ca/1482298312387/cuseum-full-white.png?format=1500w
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - techstars
-x-tier: stub
+x-tier: profile
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Museums
+- Cultural Institutions
+- Nonprofits
+- Digital Membership
+- Mobile Wallet
+- Apple Wallet
+- Google Wallet
+- Member Engagement
+- Audio Guides
+- Ticketing
+- CRM Integration
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +55,34 @@ maintainers:
 common:
 - type: Website
   url: https://cuseum.com/
+- type: DeveloperPortal
+  url: https://cuseum.readme.io/
+- type: Documentation
+  url: https://support.cuseum.com/
+- type: Support
+  url: https://support.cuseum.com/
+- type: Blog
+  url: https://cuseum.com/blog
+- type: TermsOfService
+  url: https://cuseum.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://cuseum.com/privacy-policy
+- type: SignUp
+  url: https://cuseum.com/request-demo
+- type: Security
+  url: https://cuseum.com/security
+- type: Compliance
+  url: https://cuseum.com/security
+- type: TrustCenter
+  url: https://cuseum.com/trust-center
+- type: DomainSecurity
+  url: security/cuseum-domain-security.yml
+- type: TrustCenter
+  url: security/cuseum-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/cuseum-vulnerability-disclosure.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
