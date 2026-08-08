@@ -2,13 +2,20 @@
   "repo": "cuseum",
   "feeds": [
     {
+      "source": "https://support.cuseum.com/feed.xml",
+      "feed_url": "https://support.cuseum.com/feed.xml",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
       "source": "https://support.cuseum.com/",
       "feed_url": "https://support.cuseum.com/feed.xml",
       "title": "",
-      "saved": 2,
+      "saved": 0,
       "method": "discovered"
     }
   ],
-  "post_count": 2,
-  "fetched": "2026-08-01T15:49:00Z"
+  "post_count": 25,
+  "fetched": "2026-08-06T14:08:46Z"
 }
