@@ -1,0 +1,36 @@
+generated: '2026-10-14'
+method: searched
+checked:
+- https://mpl-pusa01.app.blackbaud.net/mktpl/v1/public/marketplace/applications
+source:
+- https://mpl-pusa01.app.blackbaud.net/mktpl/v1/public/marketplace/applications
+marketplace_apps: []
+edges:
+- partner_name: Blackbaud (Blackbaud Marketplace)
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  partner_note: Blackbaud has no all/* repo (catalog gap); publisher side only
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: blackbaud-marketplace
+  evidence: https://app.blackbaud.com/marketplace/applications/3fee0b12-1520-47e8-a19e-6ecb57fcf75c
+  store: https://app.blackbaud.com/marketplace
+  store_api: https://mpl-pusa01.app.blackbaud.net/mktpl/v1/public/marketplace/applications
+  publisher: Cuseum
+  publisher_match: domain
+  publisher_domain: cuseum.com
+  apps:
+  - Cuseum Digital Membership Cards Solution for Altru
+  - Cuseum Digital Membership Cards Solution for Raiser's Edge NXT - Core
+  - Cuseum Member Portal for Altru
+  listing_count: 3
+  compatible_solutions:
+  - altru
+  - renxt
+  badges:
+  - Reviewed by Blackbaud
+  detected_by: sweep-nonprofit.py
+  detected: '2026-10-14'
